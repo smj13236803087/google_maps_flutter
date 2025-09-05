@@ -18,6 +18,9 @@ dependencies:
     # The example app is bundled with the plugin so we use a path dependency on
     # the parent directory to use the current plugin's version.
     # path: ../
+    git:
+      url: https://github.com/smj13236803087/google_maps_flutter.git
+      ref: main
   google_maps_flutter_android:
     git:
       url: https://github.com/smj13236803087/google_maps_flutter_android.git
